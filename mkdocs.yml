@@ -1,0 +1,44 @@
+site_name: Guia Hackintosh Brasil
+site_author: Gilberto | Dev
+site_description: O guia definitivo para hardware compatível no mercado brasileiro.
+
+theme:
+  name: material
+  language: pt-BR  # Define a interface do site em português
+  palette:
+    # Opção de Modo Claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Opção de Modo Escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  
+  features:
+    - navigation.tabs        # Menu horizontal no topo
+    - navigation.sections    # Organiza melhor a barra lateral
+    - navigation.top         # Botão "voltar ao topo"
+    - search.suggest         # Sugestões automáticas na busca
+    - search.highlight       # Destaca o texto encontrado
+
+# Adiciona suporte a blocos de notas, avisos e ícones no texto
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - Início: index.md
+  - 🛒 Guia de Compras: compras.md
+  - ❓ Perguntas Frequentes: faq.md
