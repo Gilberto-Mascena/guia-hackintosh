@@ -1,6 +1,6 @@
 import os
 
-URL_PROJETO = "https://gilberto-mascena.github.io/guia-hardware-hackintosh/"
+URL_PROJETO = "https://gilberto-mascena.github.io/guia-hackintosh/"
 
 # Códigos de cores para o terminal
 class Cores:
