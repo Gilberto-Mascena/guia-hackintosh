@@ -74,5 +74,5 @@ Encontrou um hardware que funciona? Ajude a comunidade!
 
 ---
 
-## 📄 [Licença](../LICENSE.md)
+## 📄 [Licença](licenca.md)
 Este guia é distribuído sob a licença MIT.
