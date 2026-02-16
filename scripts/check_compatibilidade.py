@@ -1,5 +1,7 @@
 import os
 
+URL_PROJETO = "https://gilberto-mascena.github.io/guia-hardware-hackintosh/"
+
 # Códigos de cores para o terminal
 class Cores:
     VERDE = '\033[92m'
@@ -85,7 +87,7 @@ def check_hardware():
     if sucesso and alertas:
         print(f"\n{Cores.VERDE}👍 Apesar dos avisos, seu sistema é tecnicamente viável.{Cores.RESET}")
 
-    print(f"\n{Cores.BOLD}🔗 Para detalhes, acesse: https://seu-usuario.github.io/guia-hackintosh-2026/{Cores.RESET}")
+    print(f"\n{Cores.BOLD}🔗 Para detalhes, acesse: {URL_PROJETO}{Cores.RESET}")
 
 if __name__ == "__main__":
     check_hardware()
