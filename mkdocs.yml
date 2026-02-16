@@ -30,14 +30,14 @@ theme:
     - search.suggest         # Sugestões automáticas na busca
     - search.highlight       # Destaca o texto encontrado
 
-  extra:
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/Gilberto-Mascena
-      - icon: fontawesome/brands/linkedin
-        link: https://www.linkedin.com/in/gilberto-mascena-dev     
-      - icon: fontawesome/solid/paper-plane
-        link: mailto:gilbertomascena@gmail.com
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Gilberto-Mascena
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gilberto-mascena-dev     
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:gilbertomascena@gmail.com
 
 copyright: >
   Copyright &copy; 2026 Gilberto Mascena. <br>
