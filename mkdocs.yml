@@ -30,6 +30,19 @@ theme:
     - search.suggest         # Sugestões automáticas na busca
     - search.highlight       # Destaca o texto encontrado
 
+  extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/Gilberto-Mascena
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/gilberto-mascena-dev     
+      - icon: fontawesome/solid/paper-plane
+        link: mailto:gilbertomascena@gmail.com
+
+copyright: >
+  Copyright &copy; 2026 Gilberto Mascena. <br>
+  Este guia é um projeto independente. Apple e macOS são marcas registradas da Apple Inc.
+
 # Adiciona suporte a blocos de notas, avisos e ícones no texto
 markdown_extensions:
   - admonition
