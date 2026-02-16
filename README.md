@@ -4,7 +4,7 @@ O guia definitivo para hardware compatível com macOS no mercado brasileiro, atu
 
 > [!IMPORTANT]
 > **Acesse o site oficial para uma melhor experiência:**
-> [https://gilberto-mascena.github.io/guia-hackintosh/](https://github.com/Gilberto-Mascena/guia-hackintosh)
+> [https://gilberto-mascena.github.io/guia-hackintosh/](https://gilberto-mascena.github.io/guia-hackintosh/)
 
 ---
 
