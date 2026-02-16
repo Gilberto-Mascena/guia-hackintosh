@@ -48,13 +48,27 @@ O sucesso do seu Hackintosh depende do suporte nativo da Apple aos componentes.
 
 ## 🧪 Teste de Compatibilidade
 
-Rode nosso script de análise rápida para validar seu hardware atual:
+Valide seu hardware antes de iniciar a instalação. O script analisa CPUs, GPUs e SSDs compatíveis.
 
-1. Tenha o **Python** instalado.
-2. No terminal, execute:
+### 📦 Como baixar e usar
+
+!!! abstract "1. Download da ferramenta"
+    Baixe a versão mais recente do script em nossa página de **Releases**:
+    [:octicons-download-16: Baixar Versão Mais Recente](https://github.com/Gilberto-Mascena/guia-hackintosh/releases/latest)
+
+!!! example "2. Como executar"
+    Após baixar e extrair o arquivo `.zip`, siga os passos:
+    
+    1. Abra a pasta extraída.
+    2. Clique com o botão direito dentro da pasta e selecione **"Abrir no Terminal"** (ou Prompt de Comando).
+    3. Digite o comando abaixo e aperte ++enter++:
+    
     ```bash
     python scripts/check_compatibilidade.py
     ```
+
+!!! warning "Requisito"
+    Você precisa ter o **Python 3** instalado no seu computador. Se não tiver, baixe em [python.org](https://www.python.org/downloads/).`
 
 ---
 
